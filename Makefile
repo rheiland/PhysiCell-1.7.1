@@ -2,8 +2,6 @@ VERSION := $(shell grep . VERSION.txt | cut -f1 -d:)
 PROGRAM_NAME := project
 
 CC := g++
-# CC := g++-mp-7 # typical macports compiler name
-# CC := g++-7 # typical homebrew compiler name 
 
 # Check for environment definitions of compiler 
 # e.g., on CC = g++-7 on OSX
